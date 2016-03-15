@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Puissance 4</title>
+	<script type="text/javascript" src="jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="jeup4.js"></script>
+	<div id="test"></div>
+	<script>
+		$(document).ready(function() {
+			$(function() {
+				$("#test").jeu({
+					"x": 8,
+					"y": 7,
+					"p1": "pion_jaune.gif",
+					"p2": "pion_rouge.gif"
+				 });
+			});
+		});
+	</script>
+</body>
+</html>
